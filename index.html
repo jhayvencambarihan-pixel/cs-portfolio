@@ -1,255 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Jhayven Earl M. Cambarihan | Portfolio</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-    body {
-      font-family: 'Inter', Arial, sans-serif;
-      background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
-      color: #e2e8f0;
-      line-height: 1.6;
-      overflow-x: hidden;
-    }
-    .container {
-      max-width: 1200px;
-      margin: 0 auto;
-      padding: 20px;
-    }
-    header {
-      text-align: center;
-      padding: 40px 0;
-      background: rgba(30, 41, 59, 0.8);
-      border-radius: 10px;
-      margin-bottom: 30px;
-      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
-    }
-    .avatar {
-      width: 120px;
-      height: 120px;
-      border-radius: 50%;
-      background: #38bdf8;
-      margin: 0 auto 20px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 50px;
-      color: #0f172a;
-    }
-    h1 {
-      color: #38bdf8;
-      font-size: 2.5rem;
-      margin-bottom: 10px;
-    }
-    .subtitle {
-      font-size: 1.2rem;
-      color: #7dd3fc;
-    }
-    nav {
-      margin-top: 20px;
-    }
-    nav ul {
-      list-style: none;
-      display: flex;
-      justify-content: center;
-      gap: 20px;
-    }
-    nav a {
-      color: #a5f3fc;
-      text-decoration: none;
-      font-weight: 600;
-      transition: color 0.3s;
-    }
-    nav a:hover {
-      color: #38bdf8;
-    }
-    section {
-      margin-bottom: 40px;
-      padding: 30px;
-      background: rgba(17, 24, 39, 0.9);
-      border-radius: 10px;
-      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
-      transition: transform 0.3s;
-    }
-    section:hover {
-      transform: translateY(-5px);
-    }
-    h2 {
-      color: #7dd3fc;
-      margin-bottom: 20px;
-      font-size: 1.8rem;
-      border-bottom: 2px solid #38bdf8;
-      padding-bottom: 10px;
-    }
-    ul {
-      list-style: none;
-      padding-left: 0;
-    }
-    ul li {
-      margin-bottom: 10px;
-      display: flex;
-      align-items: center;
-    }
-    ul li i {
-      margin-right: 10px;
-      color: #38bdf8;
-    }
-    a {
-      color: #a5f3fc;
-      text-decoration: none;
-      transition: color 0.3s;
-    }
-    a:hover {
-      color: #38bdf8;
-    }
-    .project-link {
-      display: inline-block;
-      margin-bottom: 10px;
-      padding: 10px 15px;
-      background: #38bdf8;
-      color: #0f172a;
-      border-radius: 5px;
-      transition: background 0.3s;
-    }
-    .project-link:hover {
-      background: #7dd3fc;
-    }
-    .contact-form {
-      display: flex;
-      flex-direction: column;
-      gap: 15px;
-    }
-    input, textarea {
-      padding: 10px;
-      border: none;
-      border-radius: 5px;
-      background: #1e293b;
-      color: #e2e8f0;
-    }
-    button {
-      padding: 10px;
-      background: #38bdf8;
-      color: #0f172a;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-      transition: background 0.3s;
-    }
-    button:hover {
-      background: #7dd3fc;
-    }
-    footer {
-      text-align: center;
-      padding: 20px;
-      background: rgba(30, 41, 59, 0.8);
-      border-radius: 10px;
-      margin-top: 30px;
-    }
-    @media (max-width: 768px) {
-      h1 {
-        font-size: 2rem;
-      }
-      nav ul {
-        flex-direction: column;
-        gap: 10px;
-      }
-      section {
-        padding: 20px;
-      }
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My E-Portfolio</title>
+    <style>
+        body { 
+            font-family: Arial, sans-serif; 
+            padding: 40px; 
+            background-color: #f8e6e6; /* very light red/pink background */
+            margin: 0;
+        }
+        .container { 
+            max-width: 800px;
+            margin: 0 auto;
+            background: #ffffff; 
+            padding: 30px; 
+            border-radius: 10px; 
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+        h1 { 
+            color: #b22222; /* firebrick red */
+            text-align: center;
+        }
+        h2 { 
+            border-bottom: 2px solid #dc3545; /* red shade */
+            color: #c9302c; /* slightly darker red */
+            padding-bottom: 5px;
+        }
+        p, li {
+            color: #4d0000; /* dark red/burgundy text */
+        }
+        ul {
+            padding-left: 20px;
+        }
+        section {
+            margin-bottom: 30px;
+        }
+        .profile-img {
+            display: block;
+            margin: 0 auto 20px;
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #b22222;
+        }
+        @media (max-width: 600px) {
+            body { padding: 20px; }
+            .container { padding: 20px; }
+        }
+    </style>
 </head>
 <body>
-  <div class="container">
-    <header>
-      <div class="avatar">
-        <i class="fas fa-user"></i> <!-- Placeholder for your photo; replace with <img src="your-photo.jpg" alt="Jhayven Earl M. Cambarihan"> -->
-      </div>
-      <h1>Jhayven Earl M. Cambarihan</h1>
-      <p class="subtitle">Aspiring IT Professional | Passionate about Technology, Programming, and Innovation</p>
-      <nav>
-        <ul>
-          <li><a href="#about">About</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
+    <div class="container">
+        <h1>My Personal E-Portfolio</h1>
+        
+        <section>
+            <h2>About Me & Beliefs</h2>
+            <img src="https://via.placeholder.com/150" alt="Profile Picture" class="profile-img"> <!-- Placeholder for profile image -->
+            <p>
+                <strong>Name:</strong> JHAYVEN EARL M. CAMBARIHAN<br>
+                <strong>Age:</strong> 18 years old<br>
+                <strong>Skills:</strong> Problem Solver, Adaptability, Time Management<br> <!-- Corrected "Time Bounder" to "Time Management" -->
+                <strong>Interest:</strong> Web Design
+            </p>
+            <p>
+                I am a first-year Computer Science student at Sultan Kudarat State University. I believe that technology should be used to make people's lives easier and more efficient. Passionate about web development, I aim to create user-friendly digital solutions.
+            </p>
+        </section>
 
-    <section id="about">
-      <h2>About Me</h2>
-      <p>
-        Hi! I'm an 18-year-old aspiring IT professional from BLK. III Kalawag II. I'm passionate about technology, programming, and continuous learning. This portfolio showcases my skills, projects, and journey in tech. I thrive on solving problems and adapting to new challenges in the ever-evolving world of IT.
-      </p>
-      <ul>
-        <li><i class="fas fa-birthday-cake"></i><strong>Age:</strong> 18 years old</li>
-        <li><i class="fas fa-map-marker-alt"></i><strong>Address:</strong> BLK. III Kalawag II</li>
-        <li><i class="fas fa-heart"></i><strong>Interests:</strong> Programming Languages, Data Analysis, Web Design</li>
-        <li><i class="fas fa-graduation-cap"></i><strong>Education:</strong> [Add your school/university here, e.g., Currently studying at XYZ High School]</li>
-        <li><i class="fas fa-briefcase"></i><strong>Experience:</strong> [Add any internships, freelance work, or relevant experience here]</li>
-      </ul>
-    </section>
+        <section>
+            <h2>Education & Training</h2>
+            <ul>
+                <li><strong>Bachelor of Science in Computer Science</strong> - Sultan Kudarat State University (Ongoing)</li>
+                <li><strong>Introduction to Computing Course</strong> - Completed</li>
+            </ul>
+        </section>
 
-    <section id="skills">
-      <h2>Skills</h2>
-      <ul>
-        <li><i class="fas fa-brain"></i>Fast Learner</li>
-        <li><i class="fas fa-puzzle-piece"></i>Problem Solving</li>
-        <li><i class="fas fa-sync-alt"></i>Adaptability</li>
-      </ul>
-      <h2>Technical Skills</h2>
-      <ul>
-        <li><i class="fas fa-code"></i>Programming Languages (e.g., Python, JavaScript)</li>
-        <li><i class="fas fa-chart-bar"></i>Data Analysis (e.g., Excel, SQL)</li>
-        <li><i class="fas fa-palette"></i>Web Design (e.g., HTML, CSS, Responsive Design)</li>
-        <li><i class="fas fa-certificate"></i>Certifications: [Add any, e.g., Google IT Support or in progress]</li>
-      </ul>
-    </section>
+        <section>
+            <h2>Skills & Qualifications</h2>
+            <ul>
+                <li>Basic Logic and Problem Solving</li>
+                <li>HTML & CSS for Web Development (Learning)</li>
+                <li>GitHub Version Control</li>
+                <li>JavaScript Basics (Emerging)</li> <!-- Added for expansion -->
+            </ul>
+        </section>
 
-    <section id="projects">
-      <h2>Projects & Links</h2>
-      <p>Here are some of my key projects and profiles. Check them out!</p>
-      <ul>
-        <li><a href="https://github.com/jhayvencambarihan" target="_blank" class="project-link"><i class="fab fa-github"></i> My GitHub Profile</a></li>
-        <li><a href="#" target="_blank" class="project-link"><i class="fas fa-project-diagram"></i> Add Your Project Link Here (e.g., Portfolio Website)</a></li>
-        <li><a href="#" target="_blank" class="project-link"><i class="fas fa-link"></i> Another Project (e.g., Data Analysis Dashboard)</a></li>
-      </ul>
-    </section>
+        <section>
+            <h2>Projects</h2>
+            <ul>
+                <li><strong>Personal E-Portfolio Website</strong> - Built with HTML and CSS to showcase skills and interests.</li>
+                <li><strong>Simple Calculator App</strong> - Basic JavaScript project for arithmetic operations.</li>
+            </ul>
+        </section>
 
-    <section id="contact">
-      <h2>Contact</h2>
-      <p>Feel free to reach out for collaborations or opportunities!</p>
-      <ul>
-        <li><i class="fab fa-github"></i>GitHub: <strong>jhayvencambarihan</strong></li>
-        <li><i class="fas fa-envelope"></i>Email: [Add your email here, e.g., jhayven@example.com]</li>
-        <li><i class="fab fa-linkedin"></i>LinkedIn: [Add your LinkedIn profile link here]</li>
-      </ul>
-      <form class="contact-form" action="#" method="post">
-        <input type="text" name="name" placeholder="Your Name" required>
-        <input type="email" name="email" placeholder="Your Email" required>
-        <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
-        <button type="submit"><i class="fas fa-paper-plane"></i> Send Message</button>
-      </form>
-    </section>
-
-    <footer>
-      <p>&copy; 2023 Jhayven Earl M. Cambarihan. Built with passion and code.</p>
-    </footer>
-  </div>
-</body>
-</html>    </div>
+        <section>
+            <h2>Contact</h2>
+            <p>
+                <strong>Email:</strong> jhayven.cambarihan@example.com<br>
+                <strong>LinkedIn:</strong> <a href="https://linkedin.com/in/jhayven-cambarihan" target="_blank">linkedin.com/in/jhayven-cambarihan</a><br>
+                <strong>GitHub:</strong> <a href="https://github.com/jhayven-cambarihan" target="_blank">github.com/jhayven-cambarihan</a>
+            </p>
+        </section>
+    </div>
 </body>
 </html>
-
-initial c
